@@ -1,0 +1,118 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+/* BODY */
+body{
+    background: teal;
+    color:white;
+    line-height:1.6;
+}
+
+/* NAVBAR */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:#020617;
+    position:sticky;
+    top:0;
+}
+
+nav h2{
+    color:#052a3a;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#053549;
+}
+
+/* HERO */
+.hero{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:48px;
+}
+
+.hero span{
+    color:#053144;
+}
+
+.hero p{
+    margin-top:15px;
+    max-width:600px;
+}
+
+/* AVATAR */
+.avatar{
+    width:140px;
+    margin-bottom:20px;
+    border-radius:50%;
+    background:white;
+    padding:10px;
+}
+
+/* SECTIONS */
+section{
+    padding:60px;
+}
+
+h2{
+    color:#074864;
+    margin-bottom:20px;
+}
+
+/* SKILLS */
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    list-style:none;
+}
+
+.skills li{
+    background:#1e293b;
+    padding:10px 20px;
+    border-radius:20px;
+}
+
+/* PROJECTS */
+.project{
+    background:#1e293b;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.project:hover{
+    transform:translateY(-6px);
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#020617;
+    margin-top:40px;
+}
